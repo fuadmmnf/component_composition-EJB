@@ -6,8 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ejb" />
         <module name="rest" />
+        <module name="trip" />
+        <module name="jwt" />
+        <module name="review" />
+        <module name="profile" />
+        <module name="payment" />
+        <module name="gps" />
+        <module name="map" />
       </profile>
     </annotationProcessing>
   </component>
