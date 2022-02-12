@@ -8,13 +8,28 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rest" />
         <module name="trip" />
+        <module name="user-management" />
         <module name="jwt" />
         <module name="review" />
         <module name="profile" />
+        <module name="ride-sharing" />
         <module name="payment" />
         <module name="gps" />
         <module name="map" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="componentcomposition" target="1.8" />
+      <module name="gps" target="1.8" />
+      <module name="jwt" target="1.8" />
+      <module name="map" target="1.8" />
+      <module name="payment" target="1.8" />
+      <module name="profile" target="1.8" />
+      <module name="rest" target="1.8" />
+      <module name="review" target="1.8" />
+      <module name="ride-sharing" target="8" />
+      <module name="trip" target="1.8" />
+      <module name="user-management" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/componentcomposition.iml" filepath="$PROJECT_DIR$/componentcomposition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gps/gps.iml" filepath="$PROJECT_DIR$/gps/gps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map/map.iml" filepath="$PROJECT_DIR$/map/map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment/payment.iml" filepath="$PROJECT_DIR$/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/profile/profile.iml" filepath="$PROJECT_DIR$/profile/profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest/rest.iml" filepath="$PROJECT_DIR$/rest/rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review/review.iml" filepath="$PROJECT_DIR$/review/review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ride-sharing/ride-sharing.iml" filepath="$PROJECT_DIR$/ride-sharing/ride-sharing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trip/trip.iml" filepath="$PROJECT_DIR$/trip/trip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-management/user-management.iml" filepath="$PROJECT_DIR$/user-management/user-management.iml" />
+    </modules>
+  </component>
+</project>

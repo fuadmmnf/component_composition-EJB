@@ -16,7 +16,11 @@
         <module>profile</module>
         <module>rest</module>
         <module>review</module>
+<!--        hierrarchical composition-->
         <module>trip</module>
+<!--        additive composition-->
+        <module>user-management</module>
+        <module>ride-sharing</module>
     </modules>
 
     <properties>

@@ -10,36 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac090389-8761-4c10-8895-c82f826b4c8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gps/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/src/main/java/auth/ejb/TokenEJB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/target/classes/auth/ejb/TokenEJB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map/src/main/java/route/ejb/RouteEJB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map/target/classes/auth/ejb/TokenEJB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/src/main/java/payment/ejb/PaymentEJB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/target/classes/auth/ejb/TokenEJB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/src/main/java/user/ejb/ProfileEJB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/target/classes/auth/ejb/TokenEJB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review/src/main/java/feedback/ejb/ReviewEJB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review/target/classes/auth/ejb/TokenEJB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/src/main/java/ridesharing/ejb/TripEJB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip/target/classes/auth/ejb/TokenEJB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ride-sharing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ride-sharing/src/main/java/rideshare/ejb/RideSharingEJB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/map/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb/src/main/java/auth/ejb/TokenEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/gps/src/main/java/location/ejb/LocationEJB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb/target/classes/auth/ejb/TokenEJB.class" beforeDir="false" afterPath="$PROJECT_DIR$/gps/target/classes/auth/ejb/TokenEJB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps/target/classes/auth/ejb/TokenEJB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/src/main/java/auth/ejb/TokenEJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/target/classes/auth/ejb/TokenEJB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/src/main/java/route/ejb/RouteEJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/target/classes/auth/ejb/TokenEJB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/payment/ejb/PaymentEJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/target/classes/auth/ejb/TokenEJB.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/src/main/java/user/ejb/ProfileEJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/target/classes/auth/ejb/TokenEJB.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/ejb-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/main/java/auth/rs/AuthResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/auth/rs/AuthResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/classes/auth/rs/APIApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/classes/auth/rs/AuthResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/auth/rs/APIApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/auth/rs/AuthResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/review/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/review/src/main/java/feedback/ejb/ReviewEJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/review/target/classes/auth/ejb/TokenEJB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/src/main/java/ridesharing/ejb/TripEJB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/target/classes/auth/ejb/TokenEJB.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +58,15 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="24ww8AdoEPZ7aZ7wGOfYF0wa1eO" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -65,11 +78,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rideshare.ejb" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="JBoss/WildFly 16.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 16.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -143,6 +166,19 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="review2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="review2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -154,7 +190,17 @@
       <updated>1644554816330</updated>
       <workItem from="1644554839833" duration="1655000" />
       <workItem from="1644661570407" duration="4556000" />
-      <workItem from="1644677456256" duration="1047000" />
+      <workItem from="1644677456256" duration="4600000" />
+      <workItem from="1644682277695" duration="275000" />
+      <workItem from="1644682598095" duration="309000" />
+      <workItem from="1644682947687" duration="487000" />
+      <workItem from="1644683467886" duration="593000" />
+      <workItem from="1644684092221" duration="222000" />
+      <workItem from="1644684343235" duration="135000" />
+      <workItem from="1644684506302" duration="167000" />
+      <workItem from="1644684700163" duration="31000" />
+      <workItem from="1644684758493" duration="51000" />
+      <workItem from="1644684835999" duration="4987000" />
     </task>
     <servers />
   </component>

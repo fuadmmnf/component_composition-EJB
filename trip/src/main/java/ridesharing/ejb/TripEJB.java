@@ -1,55 +1,27 @@
 package ridesharing.ejb;
 
 
+import location.ejb.LocationEJB;
+import route.ejb.RouteEJB;
+import user.ejb.ProfileEJB;
+
+import javax.ejb.EJB;
 import javax.ejb.Stateless;
-import java.nio.charset.Charset;
-import java.util.Random;
 
 @Stateless
-public class TripEJB {
+public class TripEJB { // hierrarchical component composition
+    @EJB
+    private ProfileEJB profileEJB;
+    @EJB
+    private LocationEJB locationEJB;
+    @EJB
+    private RouteEJB routeEJB;
 
-    private final String[] messages = { "Hey", "Hi", "Hello" };
-
-    private String getAlphaNumericString(int n)
-    {
-
-        // length is bounded by 256 Character
-        byte[] array = new byte[256];
-        new Random().nextBytes(array);
-
-        String randomString
-                = new String(array, Charset.forName("UTF-8"));
-
-        // Create a StringBuffer to store the result
-        StringBuffer r = new StringBuffer();
-
-        // Append first 20 alphanumeric characters
-        // from the generated random String into the result
-        for (int k = 0; k < randomString.length(); k++) {
-
-            char ch = randomString.charAt(k);
-
-            if (((ch >= 'a' && ch <= 'z')
-                    || (ch >= 'A' && ch <= 'Z')
-                    || (ch >= '0' && ch <= '9'))
-                    && (n > 0)) {
-
-                r.append(ch);
-                n--;
-            }
-        }
-
-        // return the resultant string
-        return r.toString();
-    }
-
-
-    public String getToken(String username) {
-        return String.format("Generate Token: %s!", this.getAlphaNumericString(10));
-    }
-
-    public String renewToken(String user){
-        return String.format("Renewed Token: %s!", this.getAlphaNumericString(10));
+    public void initTrip() { //ideally trip object should be returned, for simplicity string returned
+        // get rider and driver by passing their user ID form profileEJB
+        // get location of the respected user IDs from locationEJB
+        // using locations of the users, calculate the route between them. This is different from sequential call because the routeEJB requires the locationEJB's result from it's provides interface
+        // create trip instance from the user IDS and route, also bind the location to the trip
     }
 }
 

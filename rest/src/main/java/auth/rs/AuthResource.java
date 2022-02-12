@@ -1,6 +1,6 @@
 package auth.rs;
 
-import auth.ejb.TokenEJB;
+import user.ejb.UserManagementEJB;
 
 import javax.ejb.EJB;
 import javax.ws.rs.GET;
@@ -13,9 +13,9 @@ import javax.ws.rs.core.MediaType;
 public class AuthResource {
 
     @EJB
-    private TokenEJB tokenEJB;
+    private UserManagementEJB userManagementEJB;
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String getToken(@QueryParam("name") String name) { return tokenEJB.getToken(name); }
+    public String getToken(@QueryParam("name") String name) { return userManagementEJB.getTokenEJB().getToken(name); }
 }
