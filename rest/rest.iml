@@ -11,7 +11,9 @@
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="rest" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -42,6 +44,12 @@
     <orderEntry type="module" module-name="user-management" />
     <orderEntry type="module" module-name="jwt" />
     <orderEntry type="module" module-name="profile" />
+    <orderEntry type="module" module-name="ride-sharing" />
+    <orderEntry type="module" module-name="trip" />
+    <orderEntry type="module" module-name="gps" />
+    <orderEntry type="module" module-name="map" />
+    <orderEntry type="module" module-name="payment" />
+    <orderEntry type="module" module-name="review" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-api:7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.mail:javax.mail:1.5.0" level="project" />
   </component>

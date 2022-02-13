@@ -6,6 +6,7 @@
         <exploded>true</exploded>
         <module>rest</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">
@@ -22,6 +23,24 @@
           </element>
           <element id="archive" name="profile-1.0-SNAPSHOT.jar">
             <element id="module-output" name="profile" />
+          </element>
+          <element id="archive" name="ride-sharing-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ride-sharing" />
+          </element>
+          <element id="archive" name="trip-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="trip" />
+          </element>
+          <element id="archive" name="gps-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="gps" />
+          </element>
+          <element id="archive" name="map-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="map" />
+          </element>
+          <element id="archive" name="payment-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="payment" />
+          </element>
+          <element id="archive" name="review-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="review" />
           </element>
         </element>
       </element>

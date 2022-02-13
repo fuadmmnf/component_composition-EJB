@@ -30,6 +30,11 @@
             <artifactId>user-management</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.fuad</groupId>
+            <artifactId>ride-sharing</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
